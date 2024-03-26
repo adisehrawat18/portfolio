@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pragati+Narrow:wght@400;700&display=swap"
+    rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+  
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgba(107, 25, 8, 0.959);
+        color: white;
+        font-family: poppins;
+
+
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(1, 1, 9);
+
+    }
+
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0px 30px;
+    }
+
+    nav ul li a {
+        color: white;
+        position: relative;
+        text-decoration: none;
+    }
+
+    nav ul li a::after {
+        content: ' ';
+        width: 0;
+        height: 3px;
+        background: rgb(163, 63, 4);
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.4s;
+
+    }
+
+    nav ul li a:hover::after {
+        width: 100%;
+
+    }
+
+    .left {
+        font-size: 1.5rem;
+    }
+
+    /*--------------------------------body------------------*/
+
+    .firstsec {
+        display: flex;
+        justify-content: space-around; }
+
+
+    .leftsec {
+        width: 30%;
+        font-size: 50px;
+        margin: 118px;
+    }
+
+    .rightsec { padding: 20px;
+        width: 30%;
+        font-size: 20px;
+        margin: 80px;
+        margin-left: -50px; 
+        
+       
+        
+    }
+    
+
+    .leftsec .btn1 {
+        margin: 10px;
+        padding: 15px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 6px;
+        color: white;
+        border: 2px solid white;
+        cursor: pointer;
+        font-size: 20px;
+        font-family: poppins;
+    }
+
+    /*-------------------------about section---------------------*/
+
+
+    .secondsec {
+        display: flex; margin-top: 45px;
+    }
+
+    .about2 {
+        margin-left: 100px;
+        flex-basis: 35%;
+        font-size: 50px;
+    }
+
+    .about1 {
+        flex-basis: 60%;
+        font-size: 25px;
+        margin-right: 20px;
+        margin-left: -45px;
+    }
+
+    .about-word { margin-left: -8px;
+        font-size: 33px;
+        color: rgb(7, 1, 1);
+    }
+
+
+    /*------service section aur work sec baad m bnana h .....aur work expericnce sec bhi bna skte h ----------*/
+
+
+
+    /*-------------------------footer-------------------------*/
+    .Contact{ display: flex;
+    justify-content: center;}
+
+.Contact{ font-size: 30px;  padding-top: 30px; }
+
+.flex-container {  display: flex; justify-content: center; 
+     box-sizing: border-box; width: 100%;height: 20px; margin-top: 60px;}
+     
+
+.flex-box{ width: 300px;
+height: 60px; background-color: rgb(125, 121, 121); color: rgb(255, 255, 255);font-size: 19px; text-align: center;line-height: 64px;
+border-radius: 20px; margin: 10px;}
+
+.copyright{ display: flex;justify-content: center; margin-top: 100px; padding-bottom:  10px;}
+
+.full{ background-color: rgb(15, 0, 0);}
+
+
+
+
+        
+
+
+</style>
+
+<!--------------------------------body-------------------------------------------------->
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+
+                ADI'S PORTFOLIO
+            </div>
+            <div class="right ">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/"> PROJECTS</a></li>
+                    <li><a href="/"> ABOUT</a></li>
+                    <li><a href="/"> CONTACT</a></li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <mainfirst>
+        <section class="firstsec">
+            <div class="leftsec"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <div class="button"> <button class="btn1">First-button </button><button class="btn1">
+                        Second-button</button> </div>
+            </div>
+
+
+
+            <div class="rightsec"> <img src="2.png" alt=" " width="90%"></div>
+        </section>
+    </mainfirst>
+
+
+    <!------------------------about----------------------------------------------------------------------->
+
+    <mainsecond>
+
+        <div class="secondsec">
+
+            <div class="about2"> <img src="final2.png" alt="" width="80%"> </div>
+
+            <div class="about1">
+                <div class="about-word">
+                    <h1>ABOUT ME</h1>
+                </div>
+                <div>
+                    <h2> Web - Devloper</h2>
+                </div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa magnam qui repudiandae
+                sequi impedit suscipit quibusdam ab! Iure eos natus ab consectetur, maxime laudantium officia ipsam
+                labore, debitis dolorem ad. Mollitia delectus quibusdam ipsum recusandae ipsam dolorum, nobis quasi
+                exercitationem qui voluptas, quis consequatur id inventore sapiente, magni laudantium cum voluptatum
+                tenetur atque veritatis laborum a debitis molestiae? Rerum aperiam nihil non delectus quisquam.
+            </div>
+        </div>
+    </mainsecond>
+    
+    <!--------servive sec aur work sec baad m bnana h ....work experience------------------------>
+
+<footer class="full">
+
+    <div class="Contact">
+        <h2>Contact Me</h2></div>
+
+    <div class="flex-container">
+
+    <div class="flex-box"> g-mail </div>
+
+    <div class="flex-box"> linkedin </div>
+
+    
+    <div class="flex-box"> github</div>
+
+    <div class="flex-box"> contact no</div> 
+      </div> 
+    
+
+    <div class="copyright"> copyright &#169; ADI Portfolio Website | All Rights Reserved  </div>
+
+
+    
+
+</footer>
+
+
+</body>
+
+</html>
